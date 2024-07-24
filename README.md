@@ -111,4 +111,14 @@ Step 10: Download the Arduino IDE
 
 Step 11: Go to File > Preferences and add 'http://arduino.esp8266.com/stable/package_esp8266com_index.json' to the Additional Board Manager URLs
 
-Step 12: 
+Step 12: Use the shortcut `Ctrl+Shitf+B` to open the Board Manager and install the ep8266 board files.
+
+Step 13: Steps 11 and 12 can be followed using this guid: 'https://www.instructables.com/Steps-to-Setup-Arduino-IDE-for-NODEMCU-ESP8266-WiF/'
+
+Step 14: Install the following libraries using the Library Manager (`Ctrl+Shift+I`) - Arduino_JSON by Arduino
+
+Step 15: Use the code in `arduino_ide/code.ino`. Replace the WiFi SSID and Password with the SSID and password of the Network. Also change IP address according to the IP address of the server.
+
+Step 16: Change the buzzer number 1/2/3/4/5/6 according to which buzzer you are flashing.
+
+Step 17: Once all buzzers are flashed they will start working as expected.
